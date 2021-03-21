@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400&display=swap');
+
+:root {
+  --color-head:#F2F2F2;
+  --color-container: #4455DD;
+  --color-black: #000000;
+}
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+button:focus {outline:0;}
+
+
+.btn {
+  background: var(--color-container);
+  color: #fff;
+  padding: 5px;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+}
+
+body {
+  background: #f1f1f1f1;
+}
+
+.bg-container {
+  background: #F2F2F2;
+}
+.container {
+  max-width: 1440px;
+}
+
+.mx-auto {
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.4rem;
+  margin-left: 55px;
+  margin-right: 55px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .header .menu ul {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+ }
+ .header .menu ul li {
+   margin-left: 10px;
+ }
+
+ .header .menu ul li a {
+   color: var(--color-black);
+   padding: 5px;
+ }
+
+ /* =========== main */
+
+ .main {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin-left: 55px;
+  margin-right: 55px;
+ }
+
+ .card-left {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+  font-size: 48px;
+}
+.card-right {
+  display: flex;
+  justify-content: center;
+}
