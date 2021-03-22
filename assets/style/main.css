@@ -55,7 +55,7 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1.4rem;
-  margin: 0 55px
+  margin: 0 55px;
 }
 
 .menu {
@@ -270,7 +270,6 @@ body {
   justify-content: center;
   align-items: center;
   background: #fff;
-  border: 1px solid green;
   margin-right: -0px;
  }
  .acount-card-right p {
@@ -279,7 +278,7 @@ body {
   font-size: 24px;
   line-height: 31px;
   color: #000;
-  margin: 20px 0 0 0;
+  margin: -40px 0 0 0;
 }
  .acount-card-left {
    width: 100%;
@@ -288,7 +287,6 @@ body {
    flex-direction: column;
    justify-content: center;
    align-items: center;
-   border: 1px solid red;
    margin-left: -0px;
    background: #E5E5E5;
  }
@@ -310,6 +308,8 @@ body {
    width: 370px;
    height: 45px;
    border: none;
+   outline: 0;
+   background: #D3D3D3;
  }
 
  .acount-card-left  form  .btn {
@@ -318,3 +318,35 @@ body {
    border-radius: 4px;
    margin-top: 20px;
  }
+
+ /* ================ footer */
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1.4rem;
+  margin: 0 55px;
+}
+ .social-midia {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: left;
+ }
+.social-midia ul {
+  display: flex;
+}
+.social-midia ul li {
+  margin-left: 20px;
+}
+.social-midia  a i {
+  margin: 0 0.5rem;
+  width: 15px;
+}
+.sobre {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
