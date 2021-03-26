@@ -100,3 +100,57 @@
 }
 
 
+@media (max-width: 320px) {
+  html {
+    font-size: 15%;
+  }
+  .hero-section {
+    
+  }
+  .glider-contain .card-container h2  {
+    font-size: 5rem;
+  }
+  .glider-contain .card-container p  {
+    font-size: 5rem;
+  }
+  .glider-contain .card-container .btn {
+    width: 120px;
+  }  
+
+} 
+@media (max-width: 375px) {
+  html {
+    font-size: 25%;
+  }
+  .hero-section {
+    
+  }
+  .glider-contain .card-container h2  {
+    font-size: 5rem;
+  }
+  .glider-contain .card-container p  {
+    font-size: 5rem;
+  }
+  .glider-contain .card-container .btn {
+    width: 120px;
+  }  
+
+} 
+@media (max-width: 425px) {
+  html {
+    font-size: 25%;
+  }
+  .hero-section {
+    
+  }
+  .glider-contain .card-container h2  {
+    font-size: 5rem;
+  }
+  .glider-contain .card-container p  {
+    font-size: 5rem;
+  }
+  .glider-contain .card-container .btn {
+    width: 120px;
+  }  
+
+} 

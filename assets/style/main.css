@@ -306,7 +306,7 @@ body {
 .qoute-container {
   width: 597px;
   justify-self: left;
-  padding-left: 55px;
+  padding: 0 55px;
 
 }
 
