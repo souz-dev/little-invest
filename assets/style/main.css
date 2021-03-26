@@ -173,7 +173,7 @@ body {
   position: relative;
 
 }
-.card-right> img {
+.card-right>img {
   max-width: 564px;
   width: 100%;
 } 
@@ -275,8 +275,10 @@ body {
   justify-content: center;
 }
 
+
 .card-feature {
-  width: 370px;
+  max-width: 370px;
+  width: 100%;
   height: 460px;
   display: flex;
   flex-direction: column;
@@ -284,6 +286,10 @@ body {
   text-align: center;
   font-size: 1.8rem;
   padding: 20px;
+}
+.card-feature>img{
+  max-width: 375px;
+  width: 100%;
 }
 
 
