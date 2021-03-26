@@ -154,7 +154,6 @@ body {
 .hero-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin: 0 55px;
 }
 
 .card-left {
@@ -262,7 +261,6 @@ body {
   align-items: center;
   flex-direction: column;
   padding: 1.4rem;
-  margin: 0 55px;
 }
 
 .feature-section h1 {
