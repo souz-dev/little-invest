@@ -173,6 +173,10 @@ body {
   position: relative;
 
 }
+.card-right> img {
+  max-width: 564px;
+  width: 100%;
+} 
 
 .hero-section .card-left a button {
   width: 270px;
@@ -446,3 +450,4 @@ body {
 .glider-contain {
   display: none;
 }
+
