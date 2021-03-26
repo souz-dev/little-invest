@@ -13,10 +13,15 @@
   font-family: 'IBM Plex Sans';
 }
 
+html {
+  font-size: 62.5%;
+}
+
 body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  font-size: 1.6rem;
 }
 
 a {
@@ -47,6 +52,7 @@ body {
 
 
 .container {
+  width: 90%;
   max-width: 1280px;
 }
 
@@ -84,13 +90,13 @@ body {
 .header .menu ul li a {
   color: var(--color-black);
   padding: 5px;
-  font-size: 16px;
+  font-size: 1.6rem;
 }
 
 .header .menu ul li a button {
   width: 120px;
   height: 40px;
-  font-size: 16px;
+  font-size: 1.6rem;
 
 }
 
@@ -108,14 +114,47 @@ body {
   width: 100%;
 
 }
+.menu-mobile {
+  display: none;
+  text-align: right;
+  width: 50%;
+}
+
+.menu-mobile i {
+  cursor: pointer;
+  color:  var( --color-container);
+  font-size: 30px;
+}
+
+.menu-mobile ul {
+  background-color: #fff;
+  opacity: 0;
+  transition: 1s;
+  position: absolute;
+  width: 100%;
+  left: 0;
+  top: 40px;
+  text-align: center;
+  padding: 20px;
+}
+.menu-mobile ul li a {
+  display: block;
+  font-size: 2rem;
+  background-color: #fff;
+  padding: 10px 0;
+  color: var(--color-container);
+}
+.show-menu {
+  opacity: 1 !important;
+}
+
 
 /* =========== main */
 
 .hero-section {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  margin-left: 55px;
-  margin-right: 55px;
+  margin: 0 55px;
 }
 
 .card-left {
@@ -123,18 +162,26 @@ body {
   flex-direction: column;
   align-items: left;
   justify-content: center;
-  font-size: 48px;
+  font-size: 4.8rem;
 }
 
 .card-right {
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
+  position: relative;
+
 }
 
 .hero-section .card-left a button {
   width: 270px;
   height: 66px;
-  font-size: 28px;
+  font-size: 2.8rem;
+}
+
+.hero-section .card-right a {
+  display: none;
 }
 
 /* ======= investments */
@@ -146,8 +193,7 @@ body {
 
 .card-box {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
@@ -159,10 +205,11 @@ body {
   border-radius: 4px;
   background: #F2F2F2;
   padding: 20px;
+  margin: 10px;
 }
 
 .card-top {
-  font-size: 28;
+  font-size: 2.8rem;
   font-weight: 500;
   width: 190px;
   top: 35px;
@@ -170,13 +217,13 @@ body {
 
 .card-medium h2 {
   color: var(--color-container);
-  font-size: 28px;
+  font-size: 2.8rem;
   margin-top: 8px;
   margin-bottom: 15px;
 }
 
 .card-medium p {
-  font-size: 22px;
+  font-size: 2.2rem;
   color: #c4c4c4;
   position: relative;
 }
@@ -210,11 +257,12 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  padding: 55px;
+  padding: 1.4rem;
+  margin: 0 55px;
 }
 
 .feature-section h1 {
-  font-size: 48px;
+  font-size: 4.8rem;
 }
 
 .container-box {
@@ -230,7 +278,7 @@ body {
   flex-direction: column;
   align-items: center;
   text-align: center;
-  font-size: 18px;
+  font-size: 1.8rem;
   padding: 20px;
 }
 
@@ -255,7 +303,7 @@ body {
 }
 
 .qoute-container p {
-  font-size: 36px;
+  font-size: 3.6rem;
   color: #fff;
   margin: 20px 0;
 }
@@ -263,7 +311,7 @@ body {
 .qoute-container span {
   margin-left: 10px;
   color: #fff;
-  font-size: 24px;
+  font-size: 2.4rem;
   font-style: italic;
 }
 
@@ -271,15 +319,7 @@ body {
 /* ======= acount  */
 .acount-section {
   display: flex;
-  flex-direction: column;
 }
-
-@media only screen and (min-width: 768px) {
-  .acount-section {
-    flex-direction: row;
-  }
-}
-
 .acount-card-right {
   width: 100%;
   height: 500px;
@@ -299,8 +339,8 @@ body {
 .acount-card-right p {
   font-style: normal;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 31px;
+  font-size: 2.4rem;
+  line-height: 3.1rem;
   color: #000;
   margin: -40px 0 0 0;
   text-align: center;
@@ -327,7 +367,7 @@ body {
 }
 
 .acount-card-left form h2 {
-  font-size: 36px;
+  font-size: 3.6rem;
   margin: 10px 0;
 }
 
@@ -398,7 +438,11 @@ body {
   padding: 1rem;
   background: var(--color-container);
   color: #fff;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-weight: 500;
-  line-height: 31px;
+  line-height: 3.1rem;
+}
+
+.glider-contain {
+  display: none;
 }

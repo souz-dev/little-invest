@@ -1,0 +1,101 @@
+/* @media only screen and (min-width: 768px) {
+  .acount-section {
+    width: 100%;
+    max-width: ;
+    flex-direction: row;
+  }
+} */
+
+@media (max-width: 1185px) {
+  html {
+    font-size: 50%;
+  }
+} 
+
+@media (max-width: 1083px) {
+  html {
+    font-size: 40%;
+  }
+} 
+
+/* @media (max-width: 425px) {
+  html {
+    font-size: 35%;
+  }
+}  */
+
+@media (max-width: 768px) {
+  header .menu {
+    display: none;
+    
+  }
+  .glider-contain {
+    display: block;
+  }
+  header .menu-mobile { display: block;}
+  .hero-section {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+  }
+
+  .hero-section .card-left a {
+    display: none;
+    position: absolute;
+  }
+  .hero-section .card-right a {
+    display: inline-block;
+    top: -720px;
+    margin-bottom: 30px;
+    width: 400px;
+  }
+
+  .hero-section .card-right .btn {
+    width: 250px;
+    height: 44px;
+  }
+
+  .investments-section .card-content {
+    display: none;
+  }
+
+  .feature-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .feature-section .container-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .quote-section {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  .acount-section {
+    width: 100%;
+    flex-direction:column;
+  }
+
+  .footer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .footer .sobre {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+
