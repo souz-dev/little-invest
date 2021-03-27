@@ -101,12 +101,19 @@
 
 
 @media (max-width: 320px) {
+  
   html {
     font-size: 15%;
   }
-  .hero-section {
+  .hero-section .card-left {
+    text-align: left;
     
   }
+  
+  p {
+    font-size: 2.6rem;
+  }
+ 
   .glider-contain .card-container h2  {
     font-size: 5rem;
   }
@@ -115,7 +122,24 @@
   }
   .glider-contain .card-container .btn {
     width: 120px;
-  }  
+  } 
+  .acount-section .acount-card-right p {
+    font-size: 5rem;
+  }
+  .acount-section .acount-card-left label {
+    font-size: 3rem;
+  }
+ 
+  .footer .sobre h2 {
+    text-align: left;
+    margin-bottom: 15px;
+  }
+  .footer h2 {
+    font-size: 3.6rem;
+  }
+  .footer p {
+    text-align: left;
+  }
 
 } 
 @media (max-width: 375px) {
